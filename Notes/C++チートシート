@@ -1,0 +1,62 @@
+# C++ チートシート
+
+## おまじない
+```
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+}
+```
+
+## 入力
+
+### N
+```
+int N;
+cin >> N;
+```
+
+### N,M
+```
+int N, M;
+cin >> N >> M;
+```
+
+# N列(縦横OK)
+```
+  int N;
+  cin >> N;
+  vector<int> vec(N);
+  for (int i = 0; i < N; i++) {
+    cin >> vec.at(i);
+  }
+```
+
+## 出力
+
+### 1要素出力
+```
+  cout << A << endl;
+```
+
+### 複数要素出力
+ベクトル vec を1要素ごとに改行して出力
+```
+  for(auto v: vec){
+    cout << v << endl;
+  }
+```
+
+リスト vec を空白区切りで出力
+```
+  for (int i = 0; i < vec.size()-1; i ++){
+    cout << vec.at(i) << " ";
+  }
+  cout << vec.back() << endl;
+```
+
+[[競技プログラミング] C++ チートシート 灰〜茶まで](https://qiita.com/akidon0000/items/019c1a6bcb494f0252ea)
+
+[C++ 速習チートシート（第一章　基本文法編）](https://slimelimestech.hatenablog.com/entry/2019/10/05/114028)

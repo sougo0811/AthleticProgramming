@@ -1,0 +1,9 @@
+# Python チートシート
+
+## 入力の高速化
+```
+import sys
+input = sys.stdin.readline
+```
+
+[AtCoderにおけるPythonコードの高速化](https://www.kumilog.net/entry/python-speed-comp#input-%E3%81%A8-sysstdinreadline)
