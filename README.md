@@ -10,6 +10,6 @@
 <b>Color:</b>gray<br>
 
 ## paiza
-<b>Rate:</b>1616±100
-<b>MaxRate:</b>1668
-<b>RANK:</b>B
+<b>Rate:</b>1616±100<br>
+<b>MaxRate:</b>1668<br>
+<b>RANK:</b>B<br>
