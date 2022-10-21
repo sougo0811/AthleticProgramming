@@ -20,7 +20,7 @@ for i in range(M):
     if set(j) <= set(km[i]):
       delist.append(j)
   new_ans = [i for i in ans if i not in delist]
-  ans = new_ans; new_ans = [];
+  ans = new_ans; new_ans = []
   if len(ans) == 0:
     print("Yes")
     break
