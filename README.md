@@ -6,7 +6,8 @@
 ## AtCoder
 <b>Account</b>https://atcoder.jp/users/yatoi<br>
 <b>Name:</b>yatoi<br>
-<b>Rate:</b>352<br>
+<b>MaxRate</b>361<br>
+<b>Rate:</b>342<br>
 <b>Color:</b>gray<br>
 
 ## paiza
