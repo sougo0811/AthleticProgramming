@@ -19,6 +19,8 @@ for j in range(1,N+1):
   ans_num = len(ans[j])
   ans_j = " ".join(map(str,ans[j]))
   print(str(len(ans[j]))+ " " + ans_j)
+
+
 #TEL
 '''
 ABsort = sorted(AB)
