@@ -5,12 +5,12 @@ H,W = map(int,input().split())
 
 S = [[0] * H for _ in range(W)]
 T = [[0] * H for _ in range(W)]
-
+#S
 for i in range(H):
-  a = list(input());a.pop(-1)
+  a = list(input())
   for j in range(W):
     S[j][i] = a[j]
-
+#T
 for i in range(H):
   a = list(input())
   for j in range(W):
