@@ -1,5 +1,6 @@
 import sys
 input = sys.stdin.readline
+from collections import defaultdict
 
 N,Q = map(int,input().split())
 T,A,B = [],[],[]
@@ -8,6 +9,7 @@ for _ in range(Q):
   T.append(t); A.append(a); B.append(b)
 
 users = [[0] * (N+1) for _ in range(N+1)]
+#users = defaultdict()
 
 for i in range(Q):
   if T[i] == 1:
