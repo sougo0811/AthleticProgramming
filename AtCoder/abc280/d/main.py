@@ -22,6 +22,25 @@ def factorization(n):
 
 prime_factor = factorization(K)
 
+#print(prime_factor)
+
+#裏解法
+'''
+def gcd(a,b):
+  if a < b:
+    a,b = b,a
+  while b > 0:
+    a,b = b,a%b
+  return a
+
+for j in range(1,2*(10**6)):
+  K/=gcd(K,j)
+  if K == 1:
+    print(j)
+    exit()
+print(int(K))
+'''
+
 #WA
 '''
 for i in range(len(prime_factor)):
